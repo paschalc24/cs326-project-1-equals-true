@@ -40,8 +40,7 @@ These reports are text files, so I will be able to store old reports as strings 
 This app will be for one person until I am able to implement a user login. At that point I will be able to store peoples calendars in the database in an additional table and map them to user logins.
 
 Four Types of Data That Arent User Data:
-Date Table - object
-Calendar Table - object
+Date Table/Calendar Table - object
 Reports - string
 Amount Earned/Amount Due - number
 Worked Flag - boolean
