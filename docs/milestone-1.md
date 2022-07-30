@@ -33,3 +33,7 @@ There will then be a section at the bottom of the page titled "Create Report". I
 The Invoice will include a short message greeting the employer and will list the dates worked within the time period specified. Below each of these dates, the start times, end times, locations, and daily totals will appear, where daily totals are the amount earned each day (hourly * time worked). At the bottom of this text file there will be a section that says "Amount Due" beside the sum of the daily totals.
 
 The Earnings Report will be similar, with a short message at the top including the name of the user and the dates covered. The dates will then be listed with the location, employer, hourly wage, and daily totals underneath. At the bottom of this file there will be a section titled "Amount Earned" beside the sum of the daily totals.
+
+These reports are text files, so I will be able to store old reports as strings in the database. I will store another table in the database that will hold these old reports. The last functionality on the page will be a dropdown label titled "Get Past Report" that will have the contents of this table listed.
+
+This app will be for one person until I am able to implement a user login. At that point I will be able to store peoples calendars in the database in an additional table and map them to user logins.
