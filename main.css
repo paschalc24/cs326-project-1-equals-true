@@ -2,6 +2,10 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+#controller {
+    margin-top: 18em;
+}
+
 #calendar {
     width: 350px;
     height: 300px;
