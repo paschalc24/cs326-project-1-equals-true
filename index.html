@@ -1,14 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <title>Time Stamps</title>
+    <script type="module" src="main.js" defer></script>
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
     <h1 id="title">Time Stamps</h1>
-    <h1>Log Form: </h1>
-    <form id="log-form">
+    <div class="header" style="float:left;">Log Form: </div> 
+    <center><div class="header">Calendar: </div></center>
+    <br />
+    <div id="log-form" style="float:left;">
       <label for="s-time">Start Time: (hr:m AM/PM)</label>
       <input type="text" id="s-time" />
       <br /><br /> 
@@ -29,6 +32,14 @@
       <br /><br /> 
       <label for="h-wage">Hourly Wage: </label>
       <input type="number" id="h-wage" />
-    </form>
+      <br /><br /> 
+    </div>
+    <div id="calendar" style="float:right"></div>
+    <center></center>
+    <div id="controller">
+      <input type="button" value="Invoice" id="g"/>
+      <input type="button" value="Earnings Report" id="tester"/>
+    </div>
+    </center>
   </body>
 </html>
