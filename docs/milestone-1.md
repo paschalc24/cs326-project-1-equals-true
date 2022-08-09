@@ -19,13 +19,13 @@ I want to create an application that will allow her, and other independent contr
 When the user opens the page, there will be a form to log hours on the left, and a calendar on the right. In the calendar, any days where the user has logged hours will have the option to view details of the log from that day. 
 
 The form to log hours will include: 
-Start Time: unix timestamp
-End Time: unix timestamp
-Date: unix timestamp
-Location: string
-Employer: string
-Work Type: string
-Hourly Wage: number
+* Start Time: unix timestamp
+* End Time: unix timestamp
+* Date: unix timestamp
+* Location: string
+* Employer: string
+* Work Type: string
+* Hourly Wage: number
 
 The calendar will be stored as a table of dates. Columns following each of these dates will hold information logged by the user if it exists. If a user ever inputs data for a certain date, I will set a flag called "Worked" to be true (default false). This will allow for easy filtering of the table when creating reports.
 
@@ -39,8 +39,8 @@ These reports are text files, so I will be able to store old reports as strings 
 
 This app will be for one person until I am able to implement a user login. At that point I will be able to store peoples calendars in the database in an additional table and map them to user logins.
 
-Four Types of Data That Arent User Data:
-Date Table/Calendar Table - object
-Reports - string
-Amount Earned/Amount Due - number
-Worked Flag - boolean
+Four Types of Non-User Data:
+* Date Table/Calendar Table - object
+* Reports - string
+* Amount Earned/Amount Due - number
+* Worked Flag - boolean
