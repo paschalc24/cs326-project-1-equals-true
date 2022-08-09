@@ -9,7 +9,7 @@ The form to log hours will include 7 inputs:
 * Date: string
 * Location: string
 * Employer: string
-* Work Type: string
+* Job Title: string
 * Hourly Wage: number
 
 The calendar will be stored as a table of dates. Columns following each of these dates will hold information logged by the user if it exists. If a user ever inputs data for a certain date, 
