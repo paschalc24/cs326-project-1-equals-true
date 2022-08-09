@@ -4,9 +4,9 @@ When the user opens the page, there will be a form to log hours on the left, and
 view details of the log from that day. 
 
 The form to log hours will include 7 inputs: 
-* Start Time: unix timestamp
-* End Time: unix timestamp
-* Date: unix timestamp
+* Start Time: string
+* End Time: string
+* Date: string
 * Location: string
 * Employer: string
 * Work Type: string
