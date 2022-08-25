@@ -1,0 +1,22 @@
+{
+  "name": "onequalstrue",
+  "version": "1.0.0",
+  "description": "app pack",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paschalc24/cs326-project-1-equals-true.git"
+  },
+  "author": "Paschal Corrigan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paschalc24/cs326-project-1-equals-true/issues"
+  },
+  "homepage": "https://github.com/paschalc24/cs326-project-1-equals-true#readme"
+}
