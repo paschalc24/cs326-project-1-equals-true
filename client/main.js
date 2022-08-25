@@ -1,4 +1,7 @@
 const dates = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"];
+
+const calendar = document.getElementById('calendar');
+
 function renderCal(element) {
 element.innerHTML = '';
 for (let i = 0; i < 5; ++i) {
