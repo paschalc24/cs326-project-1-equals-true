@@ -29,6 +29,7 @@
 
 #log-header{
     width: 49.5%;
+    height: 40px;
     margin: 3px;
     display: flex;
     float: left;
@@ -90,6 +91,7 @@
 
 .calendar-item:hover {
     border:inset;
+    background-color: #f5f5f5;
 }
 
 .inbox{
@@ -148,4 +150,12 @@
 
 .buttons:active{
     background-color: rgb(92, 92, 92);
+}
+
+#cal-title{
+    float:left;
+}
+
+#month-button{
+    margin-left: 510px;
 }

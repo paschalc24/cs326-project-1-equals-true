@@ -2,11 +2,6 @@ const dates = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"];
 
 const calendar = document.getElementById('calendar');
 const monthbutton = document.getElementById('month-button');
-window.onload = () => {
-    let temp = (new Date).toISOString().split("T")[0];
-    temp = temp.split('-');
-    monthbutton.value = temp[1] + '-' + temp[0];
-}
 
 function renderCal(element, month) {
     let max;
@@ -35,4 +30,9 @@ function renderCal(element, month) {
     }
 }
 
-renderCal(calendar);
+window.onload = () => {
+    let temp = (new Date).toISOString().split("T")[0];
+    temp = temp.split('-');
+    monthbutton.value = temp[1] + '-' + temp[0];
+    renderCal(calendar);
+}
