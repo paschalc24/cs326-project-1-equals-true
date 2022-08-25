@@ -13,7 +13,7 @@
     </div>
     <div id="log-header">Log Form</div>
     <div id="calendar-header">Calendar</div>
-    <fieldset id="log-wrapper">
+    <div id="log-wrapper">
       <div id="log-form-body">
         <label for="s-time">Start Time: (hr:m AM/PM)</label>
         <input type="text" id="s-time" class="inbox"/>
@@ -36,11 +36,17 @@
         <label for="h-wage">Hourly Wage: </label>
         <input type="text" id="h-wage" class="inbox"/>
         <br /><br /> 
-      </fieldset>
+      </div>
     </div>
-    <fieldset id="calendar-wrapper">
+    <div id="calendar-wrapper">
       <div id="calendar"></div>
-    </fieldset>
-    
+    </div>
+    <div id="buttons-wrapper">
+      <input class="buttons" id="invoice-button"type="button" value="Invoice">
+      <input class="buttons" id="ea-button" type="button" value="Earnings Report">
+    </div>
+    <div id="history-wrapper">
+      <input class="buttons" id="history-button"type="button" value="Past Reports">
+    </div>
   </body>
 </html>
