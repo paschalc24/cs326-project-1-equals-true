@@ -7,41 +7,40 @@
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <!--
-    <h1 id="title">Time Stamps</h1>
-    <div class="header" style="float:left;">Log Form: </div> 
-    <center><div class="header">Calendar: </div></center>
-    <br />
-    <div id="log-form" style="float:left;">
-      <label for="s-time">Start Time: (hr:m AM/PM)</label>
-      <input type="text" id="s-time" />
-      <br /><br /> 
-      <label for="e-time">End Time: (hr:m AM/PM)</label>
-      <input type="text" id="e-time" />
-      <br /><br /> 
-      <label for="date">Date: (mm/dd/yyyy) </label>
-      <input type="text" id="date" />
-      <br /><br /> 
-      <label for="location">Location: </label>
-      <input type="text" id="location" />
-      <br /><br /> 
-      <label for="employer">Employer: </label>
-      <input type="text" id="employer" />
-      <br /><br /> 
-      <label for="j-title">Job Title: </label>
-      <input type="text" id="j-title" />
-      <br /><br /> 
-      <label for="h-wage">Hourly Wage: </label>
-      <input type="text" id="h-wage" />
-      <br /><br /> 
+    <div class="header">
+      <img src ="images/clock.png" id="logo">
+      <div id="title">TimeStamps</div>
     </div>
-    <div id="calendar" style="float:right;"></div>
-    <div id="controller">
-      <input type="button" value="Invoice" id="g"/>
-      <input type="button" value="Earnings Report" id="tester"/>
+    <div id="log-header">Log Form</div>
+    <div id="calendar-header">Calendar</div>
+    <fieldset id="log-wrapper">
+      <div id="log-form-body">
+        <label for="s-time">Start Time: (hr:m AM/PM)</label>
+        <input type="text" id="s-time" class="inbox"/>
+        <br /><br /> 
+        <label for="e-time">End Time: (hr:m AM/PM)</label>
+        <input type="text" id="e-time" class="inbox"/>
+        <br /><br /> 
+        <label for="date">Date: (mm/dd/yyyy) </label>
+        <input type="text" id="date" class="inbox"/>
+        <br /><br /> 
+        <label for="location">Location: </label>
+        <input type="text" id="location" class="inbox"/>
+        <br /><br /> 
+        <label for="employer">Employer: </label>
+        <input type="text" id="employer" class="inbox"/>
+        <br /><br /> 
+        <label for="j-title">Job Title: </label>
+        <input type="text" id="j-title" class="inbox"/>
+        <br /><br /> 
+        <label for="h-wage">Hourly Wage: </label>
+        <input type="text" id="h-wage" class="inbox"/>
+        <br /><br /> 
+      </fieldset>
     </div>
-    </center>
-  -->
-  
+    <fieldset id="calendar-wrapper">
+      <div id="calendar"></div>
+    </fieldset>
+    
   </body>
 </html>
