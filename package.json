@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/paschalc24/cs326-project-1-equals-true/issues"
   },
-  "homepage": "https://github.com/paschalc24/cs326-project-1-equals-true#readme"
+  "homepage": "https://github.com/paschalc24/cs326-project-1-equals-true#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
 }
